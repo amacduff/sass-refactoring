@@ -14,3 +14,26 @@
     font-size: 1.5rem;
     margin: 15px 0;
 }
+
+
+.btn {
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+
+a {
+    color: #999;
+}
+
+a.action {
+    border-color: green;
+}
+
+a:hover {
+    color: #777;
+}
+
+a:active {
+    color: #888;
+}
