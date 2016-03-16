@@ -1,4 +1,4 @@
-// Nesting
+/* Nesting */
 
 .content {
     border: 1px solid #ccc;
@@ -36,4 +36,18 @@ a:hover {
 
 a:active {
     color: #888;
+}
+
+
+/* Variables */
+
+$primary: #777;
+
+.sidebar {
+    border: 1px solid $primary;
+
+    p {
+        color: $primary;
+    }
+
 }

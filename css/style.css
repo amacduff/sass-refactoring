@@ -1,3 +1,4 @@
+/* Nesting */
 .content {
   border: 1px solid #ccc;
   padding: 20px;
@@ -32,6 +33,14 @@ a:hover {
 
 a:active {
   color: #888;
+}
+
+/* Variables */
+.sidebar {
+  border: 1px solid #777;
+}
+.sidebar p {
+  color: #777;
 }
 
 /*# sourceMappingURL=style.css.map */
