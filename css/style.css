@@ -1,0 +1,16 @@
+.content {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+.content p {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
