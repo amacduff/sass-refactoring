@@ -1,11 +1,11 @@
 .wrap {
   margin: auto;
-  width: 1180px;
+  width: 100%;
   overflow: hidden;
 }
 
 #slides {
-  width: 999999px;
+  width: 100%;
 }
 
 #slides > div {
