@@ -1,16 +1,12 @@
 .wrap {
+    height: 100%;
     margin: auto;
     width: 100%;
     overflow: hidden;
 }
 
 #slides {
-    height: 100%;
-    width: 100%;
-}
-
-#slides > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
