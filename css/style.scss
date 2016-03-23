@@ -1,6 +1,10 @@
+html, body {
+    height: 100%;
+}
+
 .wrap {
-    margin: auto;
-    width: 1200px;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -9,8 +13,8 @@
 }
 
 #slides > div {
-    height: 600px;
-    width: 1200px;
+    height: 100%;
+    width: 100%;
     float: left;
     margin-right: 200px;
     text-align: center;
@@ -27,6 +31,6 @@
     box-pack: center;
 }
 
-#zero {
+#slide-0 {
     background-color: #E91E63;
 }
