@@ -1,46 +1,17 @@
-/* Nesting */
-.content {
-  border: 1px solid #ccc;
-  padding: 20px;
+.wrap {
+  margin: auto;
+  width: 1180px;
+  overflow: hidden;
 }
 
-.content h2 {
-  font-size: 3rem;
-  margin: 20px 0;
+#slides {
+  width: 999999px;
 }
 
-.content p {
-  font-size: 1.5rem;
-  margin: 15px 0;
-}
-
-.btn {
-  text-decoration: underline;
-  text-transform: lowercase;
-}
-
-a {
-  color: #999;
-}
-
-a.action {
-  border-color: green;
-}
-
-a:hover {
-  color: #777;
-}
-
-a:active {
-  color: #888;
-}
-
-/* Variables */
-.sidebar {
-  border: 1px solid #777;
-}
-.sidebar p {
-  color: #777;
+#slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
