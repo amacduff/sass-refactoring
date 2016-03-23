@@ -9,9 +9,13 @@ html, body {
 }
 
 #slides {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 999999px;
+}
+
+#slides > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #slide-0 {
