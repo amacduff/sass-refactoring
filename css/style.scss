@@ -8,7 +8,7 @@
     width: 999999px;
 }
 
-#slides {
+#slides > div {
   display: flex;
   justify-content: center;
   align-items: center;
