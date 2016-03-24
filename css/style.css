@@ -9,18 +9,19 @@ html, body {
 }
 
 #slides {
-  position: relative;
+  width: 999999px;
 }
 
 #slides > div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
 }
 
 #slide-0 {
   background-color: #E91E63;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=style.css.map */
