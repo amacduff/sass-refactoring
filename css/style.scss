@@ -11,41 +11,47 @@ body,
 body {
     color: white;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
 }
 
 h1,
 h2 {
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
 }
 
 h1 {
     font-size: 3rem;
+    line-height: 1.2;
 }
 
 h2 {
-    color: transparentize(white, 0.2);
+    color: transparentize(white, 0.3);
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
     text-transform: lowercase;
 }
 
 pre {
     font-family: 'Monaco', monospace;
+    font-size: 2rem;
 }
 
 ul,
 ol {
-    font-size: 1.5rem;
-    line-height: 1.6;
+    font-size: 2rem;
 }
 
 ul {
     list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
 }
 
 .wrap {
