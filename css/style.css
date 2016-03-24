@@ -1,110 +1,73 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
-html,
-body,
-.wrap,
-#slides,
-#slides > div {
-  height: 100%;
-}
+/*
+Error: Amount 20% must be between 0 and 1 for `transparentize'
+        on line 28 of ./css/style.scss
 
-body {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-}
+23: h1 {
+24:     font-size: 3rem;
+25: }
+26: 
+27: h2 {
+28:     color: transparentize(white, 20%);
+29: }
+30: 
+31: p {
+32:     font-size: 1.5rem;
+33:     font-weight: 400;
 
-h1,
-h2 {
-  text-transform: uppercase;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-h2 {
-  font-weight: 600;
-  margin-top: 1rem;
-}
-
-p {
-  font-size: 1.5rem;
-  font-weight: 400;
-  text-transform: lowercase;
-}
-
-pre {
-  font-family: 'Monaco', monospace;
-}
-
-.wrap {
-  margin: auto;
-  width: 1200px;
-  overflow: hidden;
-}
-
-#slides {
-  width: 999999px;
-}
-
-#slides > div {
-  width: 1200px;
-  float: left;
-  margin-right: 200px;
-  /* Flexible Box Model */
-  display: -webkit-box;
-  -webkit-box-align: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-pack: center;
-}
-
-.container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#zero > div, #one > div, #two > div, #three > div, #four > div, #five > div, #six > div, #seven > div, #eight > div, #nine > div, #ten > div, #eleven > div, #twelve > div, #thirteen > div, #fourteen > div, #fifteen > div, #sixteen > div, #seventeen > div, #eighteen > div, #nineteen > div, #twenty > div, #twentyone > div {
-  width: 600px;
-}
-
-#zero,
-#one,
-#twentyone {
-  background-color: #E91E63;
-}
-
-#two,
-#three,
-#four,
-#five,
-#six {
-  background-color: #9C27B0;
-}
-
-#seven,
-#eight,
-#nine {
-  background-color: #673AB7;
-}
-
-#ten,
-#eleven,
-#twelve,
-#thirteen,
-#fourteen {
-  background-color: #3F51B5;
-}
-
-#fifteen,
-#sixteen,
-#seventeen,
-#eighteen,
-#nineteen,
-#twenty {
-  background-color: #2196F3;
-}
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+./css/style.scss:28
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/script/tree/funcall.rb:303:in `reformat_argument_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/script/tree/funcall.rb:146:in `rescue in _perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/script/tree/funcall.rb:123:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:471:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Amount 20% must be between 0 and 1 for `transparentize'\A         on line 28 of ./css/style.scss\A \A 23: h1 {\A 24:     font-size: 3rem;\A 25: }\A 26: \A 27: h2 {\A 28:     color: transparentize(white, 20%);\A 29: }\A 30: \A 31: p {\A 32:     font-size: 1.5rem;\A 33:     font-weight: 400;"; }
