@@ -9,13 +9,14 @@ html, body {
 }
 
 #slides {
-    width: 999999px;
+    position: relative;
 }
 
 #slides > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #slide-0 {
