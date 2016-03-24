@@ -21,10 +21,9 @@
     -webkit-box-orient: horizontal;
     -webkit-box-pack: center;
 
-    display: box;
-    box-align: center;
-    box-orient: horizontal;
-    box-pack: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #slide-0 {
